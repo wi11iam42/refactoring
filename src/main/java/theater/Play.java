@@ -1,9 +1,14 @@
 package theater;
 
+/**
+ * Represents a play in the theater.
+ *
+ * @null required by project Checkstyle configuration
+ */
 public class Play {
 
-    public String name;
-    public String type;
+    String name;
+    String type;
 
     public Play(String name, String type) {
         this.name = name;
