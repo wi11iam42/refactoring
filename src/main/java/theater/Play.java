@@ -7,11 +7,19 @@ package theater;
  */
 public class Play {
 
-    String name;
-    String type;
+    private String name;
+    private String type;
 
     public Play(String name, String type) {
         this.name = name;
         this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public Object getName() {
+        return name;
     }
 }
